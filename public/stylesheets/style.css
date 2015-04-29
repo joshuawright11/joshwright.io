@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  height:100%;
+  width:100%;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+body{
+	background-color: #eeeeee;
+}
+
+.header{
+	position: absolute;
+	width: 100%;
+	line-height: 80px;
+	background-color: #eeeeee;
+	background:rgba(238,238,238,0.5);
+}
+
+#logo{
+	float: left;
+	padding-left: 1em;
+	font-family: 'Lato', sans-serif;
+	font-size: 50;
+	position: absolute;
+}
+
+.navigation{
+	float: right;
+}
+
+.navitem{
+	float: right;
+	padding-right: 1em;
+	font-family: 'Lato', sans-serif;
+	font-size: 20;
+}
+
+.icon-navitem{
+	float: right;
+	padding-right: .5em;
+	font-family: 'Lato', sans-serif;
+	font-size: 20;
+}
+
+.page{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+#home-header-page{
+	height: 98%;	
+	background-image: url("/images/camping.png");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#travel-header-page{
+	height: 100%;	
+	background-image: url("/images/camping.png");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#contact-header-page{
+	height: 70%;	
+	background-image: url("/images/camping.png");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#projects-header-page{
+	height: 70%;
+	background-image: url("/images/camping.png");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center;	
+}
+
+.info{
+  height: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.social-media-icon{
+	vertical-align: middle;
+}
+
+#intro{
+	background-image: url("/images/camping.png");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.intro-title{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 60;
+}
+
+#about{
+	background-color: #eeeeee;
+	border-top: 1px solid #bbbbbb;
+}
+
+#latest-projects{
+	position: relative;
+}
+
+#latest-travel{
+	position: relative;
+}
+
+#intro-subtitle{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-size: 25;	
+}
+
+footer{
+	height: 100px;
+	background-color: #343838;
+}
+
+#navigation-footer{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.navitem-footer{
+	font-family: 'Lato', sans-serif;
+	font-size: 25;
+	color: #eeeeee;
+	transition: color,background-color 200ms linear;
+	padding: .25em 1em;
+	margin: 0 0.5em;
+	border: 2px solid #eeeeee;
+}
+
+.navitem-footer:hover{
+	color: #343838;
+	transition: color,background-color,border 200ms linear;
+	background: #eeeeee;
+}
+
+.spacer{
+	height: 1px;
+	background-color: #b4b8b8;
+	margin: 40px 100px;
+}
+
+.section-title{
+	font-family: 'Lora', serif;
+	font-size: 30;
+	padding: 17px;
+	margin-top: 40px;
+}
+
+.section-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 18;
+	padding: 30px;
+	margin: 0 250px;	
+	line-height: 200%;
+}
+
+.section-link{
+	position: absolute;
+	bottom: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 30;
+	color: #00b4cc;
+	transition: color,background-color 200ms linear;
+	padding: .25em 1em;
+	border: 2px solid #00b4cc;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.section-link:hover{
+	color: #eeeeee;
+	transition: color,background-color,border 200ms linear;
+	background: #00b4cc;
+}
