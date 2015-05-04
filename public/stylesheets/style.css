@@ -71,7 +71,7 @@ body{
 	width: 100%;
 	line-height: 80px;
 	background-color: #eeeeee;
-	background:rgba(238,238,238,0.5);
+	background:rgba(238,238,238,0.8);
 }
 
 #logo{
@@ -109,35 +109,30 @@ body{
 }
 
 #home-header-page{
-	height: 98%;	
+	height: 98%;
 	background-image: url("/images/camping.png");
 	background-size: cover; 
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-attachment: fixed;
 }
 
 #travel-header-page{
-	height: 100%;	
-	background-image: url("/images/camping.png");
+	height: 98%;	
+	background-image: url("/images/travel.png");
 	background-size: cover; 
 	background-repeat: no-repeat;
-	background-position: center center;
-}
-
-#contact-header-page{
-	height: 70%;	
-	background-image: url("/images/camping.png");
-	background-size: cover; 
-	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: top center;
+	background-attachment: fixed;
 }
 
 #projects-header-page{
-	height: 70%;
-	background-image: url("/images/camping.png");
+	height: 98%;
+	background-image: url("/images/code.png");
 	background-size: cover; 
 	background-repeat: no-repeat;
 	background-position: center center;	
+	background-attachment: fixed;
 }
 
 .info{
